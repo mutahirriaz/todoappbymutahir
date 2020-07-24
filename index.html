@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Work For Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#" id="navText">TODO-APP</a>
+    </nav>
+    <!-- Work For background image -->
+    <div class="backgroundImage">
+        <div class="col1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3 ">
+
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-6 " >
+
+                        <div class="table">
+                            <h1 class="todoHeading">TODO-APP</h1>
+                            <input type="text" class="input" id="todoApp" placeholder="What do you want to do">
+                            
+                           <i class="fa fa-plus-circle" onclick="todoBtn()" style="font-size: 25px; color: black; cursor: pointer;" ></i>  
+                            <i class="fa fa-trash" onclick="delAll() " style="font-size: 25px; color: black; cursor: pointer;"></i>      
+                            <div class="listdiv" >
+                                <ul id="list">
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3 ">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
+
+
+<!-- <input type="text"  id="todoApp">
+
+<button onclick="todoClick()">Add</button>
+
+<ul id="todoList">
+
+</ul> -->
